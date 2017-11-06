@@ -1,6 +1,5 @@
 package genius.koalapanda;
 
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -15,8 +14,25 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import genius.koalapanda.fragment.page1;
+import genius.koalapanda.fragment.page10;
+import genius.koalapanda.fragment.page11;
+import genius.koalapanda.fragment.page12;
+import genius.koalapanda.fragment.page13;
+import genius.koalapanda.fragment.page14;
+import genius.koalapanda.fragment.page15;
+import genius.koalapanda.fragment.page16;
+import genius.koalapanda.fragment.page17;
+import genius.koalapanda.fragment.page18;
+import genius.koalapanda.fragment.page19;
 import genius.koalapanda.fragment.page2;
+import genius.koalapanda.fragment.page20;
 import genius.koalapanda.fragment.page3;
+import genius.koalapanda.fragment.page4;
+import genius.koalapanda.fragment.page5;
+import genius.koalapanda.fragment.page6;
+import genius.koalapanda.fragment.page7;
+import genius.koalapanda.fragment.page8;
+import genius.koalapanda.fragment.page9;
 
 public class MainFragment extends Activity {
 
@@ -46,7 +62,7 @@ public class MainFragment extends Activity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        mViewPager.setCurrentItem(3);
+        mViewPager.setCurrentItem(20);
 
     }
 
@@ -122,14 +138,67 @@ public class MainFragment extends Activity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    page1 koala1 = new page1();
+                    page20 koala1 = new page20();
                     return koala1;
                 case 1:
-                    page2 koal2 = new page2();
-                    return koal2;
+                    page19 koala2 = new page19();
+                    return koala2;
                 case 2:
-                    page3 koal3 = new page3();
-                    return koal3;
+                    page18 koala3 = new page18();
+                    return koala3;
+                case 3:
+                    page17 koala4 = new page17();
+                    return koala4;
+                case 4:
+                    page16 koala5 = new page16();
+                    return koala5;
+                case 5:
+                    page15 koala6 = new page15();
+                    return koala6;
+                case 6:
+                    page14 koala7 = new page14();
+                    return koala7;
+                case 7:
+                    page13 koala8 = new page13();
+                    return koala8;
+                case 8:
+                    page12 koala9 = new page12();
+                    return koala9;
+                case 9:
+                    page11 koala10 = new page11();
+                    return koala10;
+                case 10:
+                    page10 koala11 = new page10();
+                    return koala11;
+                case 11:
+                    page9 koala12 = new page9();
+                    return koala12;
+                case 12:
+                    page8 koala13 = new page8();
+                    return koala13;
+                case 13:
+                    page7 koala14 = new page7();
+                    return koala14;
+                case 14:
+                    page6 koala15 = new page6();
+                    return koala15;
+                case 15:
+                    page5 koala16 = new page5();
+                    return koala16;
+                case 16:
+                    page4 koala17 = new page4();
+                    return koala17;
+                case 17:
+                    page3 koala18 = new page3();
+                    return koala18;
+                case 18:
+                    page2 koala19 = new page2();
+                    return koala19;
+                case 19:
+                    page1 koala20 = new page1();
+                    return koala20;
+
+
 
 
             }
@@ -139,7 +208,7 @@ public class MainFragment extends Activity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 20;
         }
 
         @Override
@@ -151,6 +220,40 @@ public class MainFragment extends Activity {
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
+                case 3:
+                    return "SECTION 4";
+                case 4:
+                    return "SECTION 5";
+                case 5:
+                    return "SECTION 6";
+                case 6:
+                    return "SECTION 7";
+                case 7:
+                    return "SECTION 8";
+                case 8:
+                    return "SECTION 9";
+                case 9:
+                    return "SECTION 10";
+                case 10:
+                    return "SECTION 11";
+                case 11:
+                    return "SECTION 12";
+                case 12:
+                    return "SECTION 13";
+                case 13:
+                    return "SECTION 14";
+                case 14:
+                    return "SECTION 15";
+                case 15:
+                    return "SECTION 16";
+                case 16:
+                    return "SECTION 17";
+                case 17:
+                    return "SECTION 18";
+                case 18:
+                    return "SECTION 19";
+                case 19:
+                    return "SECTION 20";
             }
             return null;
         }
