@@ -3,16 +3,19 @@ package genius.koalapanda.fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import genius.koalapanda.R;
+
 /**
  * Created by IZZAH_PC on 10/29/2017.
  */
 
-public class page102 page48 extends Fragment {
+public class page102 extends Fragment {
     ImageView pg1;
     Context context;
     @Nullable
@@ -25,8 +28,8 @@ public class page102 page48 extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg1 = (ImageView) getView().findViewById(R.id.img1);
-        pg1.setImageResource(R.drawable.hal_3);{
-        }
-        {
+        pg1 = (ImageView) getView().findViewById(R.id.img102);
+        pg1.setImageResource(R.drawable.hal_3);
+
+    }
 }
