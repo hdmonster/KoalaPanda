@@ -30,5 +30,7 @@ public class page367 extends Fragment {
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img367);
         pg1.setImageResource(R.drawable.a367);
-    } { { { { { { { { {
-}
+    }
+    {
+    }{
+    }

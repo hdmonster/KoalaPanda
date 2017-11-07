@@ -30,5 +30,7 @@ public class page428 extends Fragment {
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img428);
         pg1.setImageResource(R.drawable.a428);
-    } { { { { { { { { { { { { { { { {
-}
+    }
+    {
+    }{
+    }
