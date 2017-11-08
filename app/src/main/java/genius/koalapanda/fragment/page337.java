@@ -1,5 +1,6 @@
 package genius.koalapanda.fragment;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -29,7 +30,6 @@ public class page337 extends Fragment {
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img337);
         pg1.setImageResource(R.drawable.a337);
+
     }
-    {
-    }{
-    }
+}
