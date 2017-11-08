@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.izzah_pc.lashbookmark.R;
+import genius.koalapanda.R;
 
 /**
  * Created by IZZAH_PC on 10/29/2017.
@@ -21,13 +21,13 @@ public class page34 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.hal34, container, false);
+        return inflater.inflate(R.layout.koala34, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg34 = (ImageView) getView().findViewById(R.id.a34);
+        pg34 = (ImageView) getView().findViewById(R.id.img34);
         pg34.setImageResource(R.drawable.a34);}
 }

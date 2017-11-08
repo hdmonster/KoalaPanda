@@ -9,8 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.izzah_pc.lashbookmark.R;
-
+import genius.koalapanda.R;
 /**
  * Created by IZZAH_PC on 10/29/2017.
  */
@@ -18,17 +17,18 @@ import com.example.izzah_pc.lashbookmark.R;
 public class page23 extends Fragment {
     ImageView pg23;
     Context context;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.hal23, container, false);
+        return inflater.inflate(R.layout.koala23, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg23 = (ImageView) getView().findViewById(R.id.a23);
+        pg23 = (ImageView) getView().findViewById(R.id.img23);
         pg23.setImageResource(R.drawable.a23);
     }
 }

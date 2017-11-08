@@ -21,7 +21,7 @@ public class page356 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.koala356, container, false);
+        return inflater.inflate(R.layout.koala2455, container, false);
     }
 
     @Override
@@ -29,8 +29,6 @@ public class page356 extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img356);
-        pg1.setImageResource(R.drawable.a356);
+        pg1.setImageResource(R.drawable.a357);
     }
-    {
-    }{
     }

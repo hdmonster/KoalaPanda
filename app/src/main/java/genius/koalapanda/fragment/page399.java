@@ -31,6 +31,5 @@ public class page399   extends Fragment {
         pg1 = (ImageView) getView().findViewById(R.id.img399);
         pg1.setImageResource(R.drawable.a399);
     }
-    {
-    }{
+
     }

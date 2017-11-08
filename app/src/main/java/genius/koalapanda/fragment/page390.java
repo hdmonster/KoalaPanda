@@ -18,6 +18,7 @@ import genius.koalapanda.R;
 public class page390  extends Fragment {
     ImageView pg1;
     Context context;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
@@ -29,8 +30,6 @@ public class page390  extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img390);
-        pg1.setImageResource(R.drawable.a390);
+        pg1.setImageResource(R.drawable.a391);
     }
-    {
-    }{
-    }
+}

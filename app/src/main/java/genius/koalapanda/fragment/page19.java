@@ -18,6 +18,7 @@ import genius.koalapanda.R;
 public class page19 extends Fragment {
     ImageView pg19;
     Context context;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {

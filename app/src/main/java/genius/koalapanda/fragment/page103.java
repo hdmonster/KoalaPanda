@@ -28,9 +28,7 @@ public class page103 extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg1 = (ImageView) getView().findViewById(R.id.img1);
-        pg1.setImageResource(R.drawable.hal_3);
-
+        pg1 = (ImageView) getView().findViewById(R.id.img103);
+        pg1.setImageResource(R.drawable.a103);
         }
-    }
-
+}
