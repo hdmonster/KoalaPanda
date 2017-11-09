@@ -12,11 +12,11 @@ import android.widget.ImageView;
 import genius.koalapanda.R;
 
 /**
- * Created by IZZAH_PC on 10/29/2017.
+ * Created by DZAKY_PC on 10/21/2017.
  */
 
 public class page32 extends Fragment {
-    ImageView pg32;
+    ImageView pg1;
     Context context;
     @Nullable
     @Override
@@ -28,7 +28,7 @@ public class page32 extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg32 = (ImageView) getView().findViewById(R.id.img32);
-        pg32.setImageResource(R.drawable.a32);
+        pg1 = (ImageView) getView().findViewById(R.id.img32);
+        pg1.setImageResource(R.drawable.a32);
     }
 }

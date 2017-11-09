@@ -12,24 +12,23 @@ import android.widget.ImageView;
 import genius.koalapanda.R;
 
 /**
- * Created by IZZAH_PC on 10/29/2017.
+ * Created by DZAKY_PC on 10/21/2017.
  */
 
 public class page22 extends Fragment {
-    ImageView pg22;
+    ImageView pg1;
     Context context;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.koala22, container, false);
+        return inflater.inflate(R.layout.koala2, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg22 = (ImageView) getView().findViewById(R.id.img22);
-        pg22.setImageResource(R.drawable.a22);
+        pg1 = (ImageView) getView().findViewById(R.id.img22);
+        pg1.setImageResource(R.drawable.a22);
     }
 }

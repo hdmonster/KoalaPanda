@@ -21,7 +21,7 @@ public class page298  extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.koala1, container, false);
+        return inflater.inflate(R.layout.koala298, container, false);
     }
 
     @Override
