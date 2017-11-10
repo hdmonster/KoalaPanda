@@ -24,6 +24,8 @@ public class page30 extends Fragment {
         return inflater.inflate(R.layout.koala30, container, false);
     }
 
+
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
