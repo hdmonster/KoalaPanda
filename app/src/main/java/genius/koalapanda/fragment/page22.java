@@ -21,10 +21,8 @@ public class page22 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.panda22, container, false);
-
+        return inflater.inflate(R.layout.hal22, container, false);
     }
-
 
 
     @Override
@@ -32,7 +30,7 @@ public class page22 extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
 
-        pg22 = (ImageView) getView().findViewById(R.id.imgp22);
+        pg22 = (ImageView) getView().findViewById(R.id.imgt22);
         pg22.setImageResource(R.drawable.a22);
     }
 }
