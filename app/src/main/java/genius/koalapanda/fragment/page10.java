@@ -22,14 +22,14 @@ public class page10 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.koala10, container, false);
+        return inflater.inflate(R.layout.koal10, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg10 = (ImageView) getView().findViewById(R.id.img10);
-        pg10.setImageResource(R.drawable.a10);
+        pg10 = (ImageView) getView().findViewById(R.id.imgu10);
+        pg10.setImageResource(R.mipmap.a10);
     }
 }

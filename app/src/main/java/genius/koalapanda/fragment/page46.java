@@ -21,13 +21,13 @@ public class page46 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.koala46, container, false);
+        return inflater.inflate(R.layout.halaman46, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg46 = (ImageView) getView().findViewById(R.id.img46);
+        pg46 = (ImageView) getView().findViewById(R.id.imgf46);
         pg46.setImageResource(R.drawable.a46);}
 }

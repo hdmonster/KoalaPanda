@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/img10"
+        android:id="@+id/imgu10"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/a10"/>
+        android:src="@mipmap/a10"/>
 </LinearLayout>

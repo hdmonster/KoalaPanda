@@ -7,12 +7,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imgb23"
+        android:id="@+id/imgr28"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/a23" />
+        android:src="@mipmap/a28" />
 </LinearLayout>

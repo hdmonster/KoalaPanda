@@ -18,10 +18,11 @@ import genius.koalapanda.R;
 public class page22 extends Fragment {
     ImageView pg22;
     Context context;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.hal22, container, false);
+        return inflater.inflate(R.layout.pg22, container, false);
     }
 
 
@@ -30,7 +31,7 @@ public class page22 extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
 
-        pg22 = (ImageView) getView().findViewById(R.id.imgt22);
-        pg22.setImageResource(R.drawable.a22);
+        pg22 = (ImageView) getView().findViewById(R.id.imge22);
+        pg22.setImageResource(R.mipmap.a22);
     }
 }
