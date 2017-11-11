@@ -43,7 +43,7 @@ public class MainFragment extends Activity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        mViewPager.setCurrentItem(357);
+        mViewPager.setCurrentItem(337);
 
     }
 
