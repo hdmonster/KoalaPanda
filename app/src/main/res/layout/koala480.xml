@@ -9,5 +9,5 @@
         android:id="@+id/img480"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/a481"/>
+        android:src="@mipmap/a481"/>
 </LinearLayout>
