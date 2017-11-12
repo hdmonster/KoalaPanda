@@ -29,7 +29,7 @@ public class page189  extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img189);
-        pg1.setImageResource(R.drawable.a190);
+        pg1.setImageResource(R.mipmap.a190);
         }
 
 }
