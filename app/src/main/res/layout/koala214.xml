@@ -14,5 +14,5 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="5dp"
-        android:src="@drawable/a215" />
+        android:src="@mipmap/a215" />
 </LinearLayout>
