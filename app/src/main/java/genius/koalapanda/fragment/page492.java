@@ -29,6 +29,6 @@ Context context;
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         pg1 = (ImageView) getView().findViewById(R.id.img492);
-        pg1.setImageResource(R.drawable.a493);
+        pg1.setImageResource(R.mipmap.a493);
     }
 }

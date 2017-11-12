@@ -29,6 +29,6 @@ public class page544 extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         pg44 = (ImageView) getView().findViewById(R.id.img544);
-        pg44.setImageResource(R.drawable.a545);
+        pg44.setImageResource(R.mipmap.a545);
     }
 }
