@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v13.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -43,7 +43,7 @@ public class MainFragment extends Activity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        mViewPager.setCurrentItem(553);
+        mViewPager.setCurrentItem(603);
 
     }
 
@@ -706,7 +706,6 @@ public class MainFragment extends Activity {
                 case 199:
                     page404 koala200 = new page404();
                     return koala200;
-
                 case 200:
                     page403 koala888 = new page403();
                     return koala888;
