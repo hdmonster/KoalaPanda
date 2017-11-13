@@ -28,7 +28,7 @@ Context context;
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg1 = (ImageView) getView().findViewById(R.id.img458);
-        pg1.setImageResource(R.mipmap.a459);
+        pg1 = (ImageView) getView().findViewById(R.id.img457);
+        pg1.setImageResource(R.mipmap.a458);
     }
 }

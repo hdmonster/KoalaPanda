@@ -28,8 +28,8 @@ public class page88 extends Fragment{
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-        pg88 = (ImageView) getView().findViewById(R.id.img88);
-        pg88.setImageResource(R.mipmap.a88);
+        pg88 = (ImageView) getView().findViewById(R.id.imgk88);
+        pg88.setImageResource(R.drawable.a88);
         }
 
 }

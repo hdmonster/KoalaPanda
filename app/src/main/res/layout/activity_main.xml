@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="genius.koalapanda.MainActivity">
 
+
     <TextView
         android:id="@+id/txtGO"
         android:layout_width="wrap_content"

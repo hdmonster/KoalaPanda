@@ -10,5 +10,5 @@
         android:id="@+id/image23"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/a23" />
+        android:src="@mipmap/a23" />
 </LinearLayout>
